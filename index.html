@@ -1,0 +1,48 @@
+<!---31/08/2021 -->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> sumame esta </title>
+<meta charset="utf-8">
+<link rel=StyleSheet href="estilo.css" TYPE="text/css">
+</head>
+<body>
+
+<h1> Sumame esta! </h1>
+<h2> >seleccionar numeros< </h2>
+
+</br>
+
+<input type="number" id="primero"> 
+
+</br>
+
+<input type="number" id="segundo"> 
+
+</br>
+
+<input type="button" value="sumar!" id="actionButton">
+
+
+<!--- aca en el script suma los numeros. con la variable actionButton agarra los valores de primero y segundo, osea, los valores ingresados. despues con query selector lo vincula al div que muestra los resultados. -->
+<script>
+
+let actionButton = document.querySelector("#actionButton")
+actionButton.addEventListener("click", ()=>{
+
+let {value: primero} = document.querySelector('#primero'); 
+let  {value: segundo} = document.querySelector('#segundo')
+
+let div = document.querySelector('#resultado');
+
+div.innerHTML = `Sus resultados: ${ parseInt(primero) + parseInt(segundo)}`;
+});
+
+</script>
+
+<div id="resultado"> </div>
+
+<img src="proyectos/sumas/matematicas.jpg">
+
+</body>
+</html>

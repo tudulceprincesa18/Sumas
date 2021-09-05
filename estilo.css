@@ -1,0 +1,63 @@
+/* bueno, los estilos, quiero que sea naranja mi pagina. miren, ya se que me pude haber simplicado un monton los estilos, pero estoy de buen humor y queria tomarme mi tiempo, gracias. no me juzguen porfa :'v*/
+body{
+	background-color:#F89E8A;
+	text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+h1{
+	font-size:20px;
+	font-style:monospace;
+}
+
+#primero{
+	width:350px;
+	height:60px;
+	border-style:solid;
+	border-color:black;
+	background-color:white;
+	border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#segundo{
+	width:350px;
+	height:60px;
+    border-style:solid;
+    border-color:black;
+    background-color:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#actionButton{
+	width:350px;
+	height:50px;
+	border-style:solid;
+    border-color:black;
+    background-color:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#resultado{
+	width:350px;
+	height:80px;
+    border-style:solid;
+    border-color:black;
+    background-color:white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
